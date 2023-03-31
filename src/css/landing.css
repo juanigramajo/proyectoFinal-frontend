@@ -1,0 +1,20 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.imglanding {
+    width: 15rem;
+}
+
+.static {
+   position: absolute;
+   background: white;
+}
+  
+.static:hover {
+   opacity: 0;
+}
+
+.imgscroll {
+    width: 20rem;
+}

@@ -1,0 +1,12 @@
+.sideBar {
+  height: 709px;
+  width: 300px;
+  background-color:#343a40;
+}
+.sidebar-buttons {
+  width: 300px;
+  border-radius: 0;
+  color: white;
+  border-color: rgb(248, 248, 248);
+  padding: 20px;
+}

@@ -1,0 +1,242 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.fixedFooter {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* ESTILOS FOOTER */
+
+.backgrFooter{
+  background-color: black;
+  color: white;
+  height: 150px;
+}
+
+.socialicon{
+  color:gray;
+  font-size: 35px;
+  text-align: center;
+  padding: 15px;
+}
+
+.socialiconfooter{
+  color:rgb(255, 255, 255);
+}
+
+.img-credit-card{
+  max-width: 2.5rem;
+  margin: 10px;
+}
+
+.borderTop-div{
+  border-top: 2px solid  #6d6e70;
+}
+
+
+/* ESTILOS NAVBAR */
+
+.botonHamburguesa {
+  color: white !important;
+  background-color: white !important;
+  border-color: white !important;
+}
+
+.navbar-style{
+  min-height: 150px;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+}
+
+.fontNavbar {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: white !important;
+  margin-right: 2rem;
+}
+
+.logoImg {
+  height: 150px;
+  width: 150px;
+}
+
+.btnDropDown {
+  margin-right: 6rem;
+  background-color: white;
+}
+
+.btnStyle1 {
+  background-color:white;
+  border-color: white;
+  color: black;
+  margin: 5px;
+}
+
+.btnStyle1:hover {
+  background-color:gray;
+  border-color: gray;
+}
+
+.btnStyle2 {
+  background-color:gray;
+  border-color: gray;
+}
+
+.btnStyle2:hover {
+  background-color:white;
+  border-color: white;
+  color: black;
+}
+
+.titulos {
+  font-family: 'Train One', cursive;
+  font-size: 40px;
+}
+
+.fontP {
+  font-size:18px
+}
+
+
+/* SECCIONES PRODUCTOS */
+
+.sectionProduct {
+  background-image: url(https://image.freepik.com/foto-gratis/pared-ladrillo-negro-textura-fondo_53876-63572.jpg);
+}
+
+.productsTitle {
+  background-image: url(../Img/tituloproductos.JPEG);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.backproducts {
+  background-image: url(https://image.freepik.com/foto-gratis/pared-ladrillo-negro-textura-fondo_53876-63572.jpg);
+}
+
+
+
+/* NAV PANEL ADMIN */
+.navpaneladmin {
+  background-image: url(../Img/navpaneladmin.JPEG);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sideBar {
+  background-image: url(../Img/sidepaneladmin.JPEG);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/* ESTILOS APPLEWATCH */
+
+.imgAppleW {
+  width: 100%;
+}
+
+/* ESTILOS SUUNTOWSTCH */
+.imgSuuntoW {
+  width: 100%;
+}
+
+.videoYoutube{
+  height: 400px;
+  width: 650px;
+}
+
+/* TITULOS Y SUBTIULOS LANDING */
+/* ESTILOS APPLEWATCH */
+.imgAppleW {
+  width: 100%;
+}
+
+.iconApple{
+  color:black;
+  font-size: 50px;
+  margin-right: 10px;
+}
+
+
+
+/* ESTILOS SUUNTOWSTCH */
+
+.imgSuuntoW {
+  width: 100%;
+}
+
+
+
+/* ESTILOS PROFILE*/
+
+.hr-style {
+  border: 5px solid
+}
+
+.titulosLanding {
+  font-family: 'Jockey One', sans-serif;
+  font-size: 50px;
+}
+
+.subtitulosLanding {
+  font-family: 'Jockey One', sans-serif;
+  font-size: 40px;
+}
+
+.parrafoLanding{
+  font-family: 'Pavanam', sans-serif;
+  font-size: 20px;
+}
+
+.videoYoutube {
+  width: 600px;
+  height: 400px;
+}
+
+@media (max-width: 768px) {
+
+  .videoYoutube{
+    width:100%;
+  }
+
+  .titulosLanding {
+    font-size: 35px;
+  }
+  
+  .subtitulosLanding {
+    font-size: 25px;
+  }
+  
+  .parrafoLanding{
+    font-size: 15px;
+  }
+
+}
+
+/* ESTILOS PROFILE*/
+.hr-style {
+  border: 5px solid
+}
+
+@media (max-width: 768px) {
+  .backgrFooter{
+    height: 130px;
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .videoYoutube{
+    width: 100%;
+  }
+}
